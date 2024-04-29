@@ -1,0 +1,30 @@
+:root{
+    --primary-color:#bc6c25;
+    --secondary-color:#4d3822;
+    --hover-color:#e76f51;
+    --section-color:#B78752;
+
+}
+
+*{
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+.navbar{
+    background-color: transparent !important;
+}
+.navbar .container{
+    background-color: rgba(0, 0, 0, 0.648) !important;
+}
+
+.nav-link{
+    color: white !important;
+}
+
+.nav-link:hover{
+    color: #e76f51 !important;
+}
+
+.navbar-nav{
+    font-size: 1.3rem;
+    font-weight: bold;
+}
