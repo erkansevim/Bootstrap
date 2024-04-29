@@ -11,6 +11,9 @@
 }
 .navbar{
     background-color: transparent !important;
+    position: fixed;
+    z-index: 5;
+    width: 100%;
 }
 .navbar .container{
     background-color: rgba(0, 0, 0, 0.648) !important;
@@ -28,3 +31,34 @@
     font-size: 1.3rem;
     font-weight: bold;
 }
+
+.carousel-item{
+    height: 100vh;
+   
+}
+
+.carousel-item img{
+    height: 100%;
+    object-fit: cover;
+}
+
+.carousel-caption{
+
+    bottom: 35%;
+}
+
+.hero{
+    z-index: 3;
+    position: relative;
+}
+
+.black{
+    width: 450px;
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.512);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(40deg);
+}
+    
