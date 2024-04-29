@@ -80,3 +80,32 @@ font-weight: bold;
     transform: translate(-50%, -50%) rotate(40deg);
 }
     
+.carousel-indicators{
+    gap: 0.7rem;
+
+}
+
+.carousel-indicators button{
+    background-color: #bc6c25 !important;
+    width: 3rem !important;
+    padding: 0.1rem !important;
+}
+
+section#about{
+    background-color: var(--secondary-color);
+}
+
+.image-container{
+    position: relative;
+}
+.about-image-info{
+    background-image: linear-gradient(to bottom, rgb(0, 0, 0, 0.6),
+    rgb(188, 109, 37, 0.605) 
+    );
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+
+}
