@@ -47,6 +47,24 @@
     bottom: 35%;
 }
 
+.carousel-caption .btn{
+background-color: var(--primary-color);
+border: none;
+width: 10rem;
+white-space: nowrap;
+color: white;
+font-weight: bold;
+}
+
+.carousel-caption .btn:first-child{
+    background-color: transparent ;
+}
+
+.carousel-caption .btn:first-child:hover{
+    background-color: white ;
+    color: black;
+}
+
 .hero{
     z-index: 3;
     position: relative;
