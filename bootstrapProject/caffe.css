@@ -109,3 +109,15 @@ section#about{
     width: 100%;
 
 }
+
+section#people{
+    background-color: var(--section-color) !important;
+}
+
+section#people .container{
+    background-color: var(--secondary-color);
+}
+
+section#people .card{
+    background-color: var(--primary-color);
+}
